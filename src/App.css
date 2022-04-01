@@ -11,12 +11,9 @@ h3 {
   text-align: center;
   padding: 0.25em;
 }
-.font-awesome {
-  font-size: 25px;
-  color: rgb(97, 104, 109);
-}
+
 .header-section {
-  background-color: #000;
+  background-color: rgb(36, 35, 35);
 }
 
 .nav-links {
@@ -34,25 +31,18 @@ h3 {
   color: white;
 }
 .nav-links a:hover {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
-button {
-  background-color: rgb(136, 103, 103);
-  border-radius: 10%;
-  padding: 0.25em;
-  color: white;
-  border: 1px solid rgb(252, 198, 245);
-}
+
 /*HOME PAGE*/
-.about-section {
-  background-color: rgb(248, 228, 245);
-}
+
 .name {
   font-size: 32px;
   color: rgb(3, 3, 3);
 }
 .about-container {
   display: flex;
+  margin-top: 2rem;
 }
 .about-info1 {
   width: 50%;
@@ -62,13 +52,6 @@ button {
   text-transform: capitalize;
   line-height: 32px;
   font-size: 20px;
-}
-
-.tech-skills {
-  text-align: center;
-  line-height: 30px;
-  background-color: white;
-  border: 1px solid rgb(14, 13, 13);
 }
 span {
   font-weight: 600;
@@ -89,8 +72,11 @@ span {
   padding: 2.5rem;
   list-style-type: none;
 }
+.social-links a {
+  color: #000;
+}
 .social-links a:hover {
-  color: white;
+  color: blueviolet;
 }
 .see-more {
   margin: 1rem;
@@ -100,12 +86,40 @@ span {
 }
 .see-more a {
   text-decoration: none;
+  color: #000;
 }
 .see-more a:hover {
   font-size: 20px;
-  color: #000;
+  color: blueviolet;
 }
-
+@media (max-width: 600px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-info1 {
+    width: 100%;
+  }
+  .image {
+    max-width: 100%;
+    width: 100%;
+  }
+  .social-links {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/*about page*/
+.tech-skills {
+  text-align: center;
+  line-height: 30px;
+  margin: 4rem;
+}
+.tech-skills ul li {
+  list-style-type: none;
+  font-size: 1.25rem;
+}
 /* projects*/
 
 .project {
@@ -120,9 +134,13 @@ span {
 .project-img img {
   width: 80%;
 }
-.project-img a:hover {
-  border: 2px solid black;
-}
+
 .article {
   background-color: rgb(248, 228, 245);
+}
+@media (max-width: 600px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+  }
 }

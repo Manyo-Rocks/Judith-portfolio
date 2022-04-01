@@ -1,5 +1,5 @@
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faEnvelope, faPhone, faAngleRight, faStar } from '@fortawesome/free-solid-svg-icons'
+import {faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faTwitter, faGithub} from '@fortawesome/free-brands-svg-icons'
 function About(){
 
@@ -7,6 +7,16 @@ function About(){
     <>
       <section className="about-section">
      <h3>About Me</h3>
+        <div className="tech-skills">
+         <h4>Tech skills</h4>
+         <ul>
+           <li>React Js</li>
+           <li>JavaScript</li>
+           <li>HTML5</li>
+           <li>CSS3</li>
+           <li>GIT</li>
+           </ul>
+        </div>
        <div className="about-container">
         <div className="about-info1"> 
           <p className="intro"><span className='name'>Hello, I'm Judith Manyo Ogar</span><br /><span>A skilled Frontend Developer</span> who understand and know to implement good user interface and create great user experience with clean codes.  <br/> I know the importance of web accessibility, and so I write codes that makes the web accessible to everyone regardless of physical condition and devices used.
@@ -50,17 +60,7 @@ function About(){
         
        </ul>
 
-       <div className="tech-skills">
-       <h4>Technologies & Tools I Work With</h4>
-         <ul>
-           <li>React Js</li>
-           <li>JavaScript</li>
-           <li>HTML5</li>
-           <li>CSS3</li>
-           <li>GIT</li>
-
-         </ul>
-       </div>
+       
        </section>
     </>
   )

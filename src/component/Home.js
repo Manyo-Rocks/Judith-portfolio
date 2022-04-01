@@ -9,7 +9,7 @@ function Home() {
   return(
    <>
      <section className="about-section">
-     <h3>About Me</h3>
+
        <div className="about-container">
         <div className="about-info1"> 
           <p className="intro"><span className='name'>Hello, I'm Judith Manyo Ogar</span><br /><span>A skilled Frontend Developer</span> who understand and know to implement good user interface and create great user experience with clean codes.  <br/> I know the importance of web accessibility, and so I write codes that makes the web accessible to everyone regardless of physical condition and devices used.
@@ -71,13 +71,14 @@ function Home() {
               <li><FontAwesomeIcon icon={faStar} />Website visitors can add items to their cart.</li>
               <li><FontAwesomeIcon icon={faStar} /> Website visitors can see the number of items in their carts, increase or decrease the number of cart items and see total amount they need to pay</li>
             </ul>
-             <p><span class="tools-used">This website was built with HTML, CSS & JavaScript</span></p>
+             <p><span class="tools-used">This website was built with HTML & CSS</span></p>
             
           </div>
         </div>
         <div className="project">
           <div className="project-img">
-            <img src='images/cars&spec.jpg' alt="Cars website" />
+            <a href='https://carsandspec.netlify.app/'>
+            <img src='images/cars&spec.jpg' alt="Cars website" /></a>
           </div>
           <div className="project-info">
             <h4 className='title'>Cars & Spec</h4>

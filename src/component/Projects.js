@@ -23,7 +23,8 @@ function Projects(){
         </div>
         <div className="project">
           <div className="project-img">
-            <img src='images/cars&spec.jpg' alt="Cars website" />
+            <a href='https://carsandspec.netlify.app/'>
+            <img src='images/cars&spec.jpg' alt="Cars website" /></a>
           </div>
           <div className="project-info">
             <h4 className='title'>Cars & Spec</h4>
