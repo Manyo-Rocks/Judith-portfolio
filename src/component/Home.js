@@ -12,9 +12,10 @@ function Home() {
 
        <div className="about-container">
         <div className="about-info1"> 
-          <p className="intro"><span className='name'>Hello, I'm Judith Manyo Ogar</span><br /><span>A skilled Frontend Developer</span> who understand and know to implement good user interface and create great user experience with clean codes.  <br/> I know the importance of web accessibility, and so I write codes that makes the web accessible to everyone regardless of physical condition and devices used.
-          <span>I believe team work makes the dream work!</span> & I'm your best bet to add to your team and help build your product. I'm a great communicator and problem solver
-          <br/> <span>I will turn your dream product to reality with codes!</span></p>
+          <p className="intro"><span className='name' >Hello, I'm Judith Manyo Ogar</span><br /><span>A skilled Frontend Developer</span> who understands and know how to implement good user interface and create great user experience with clean codes.  <br/> I know the importance of web accessibility, and so I write codes that makes the web accessible to everyone regardless of physical condition or device used.
+            I'm the best bet to add to your team and help build your product. 
+          <br/> <span>I will turn your dream product to reality with codes</span>   
+           I'm a great communicator, a critical thinker and problem solver & I believe Team work makes the dream work!</p>
          
         </div>
         <div className="image">

@@ -11,11 +11,14 @@ h3 {
   text-align: center;
   padding: 0.25em;
 }
-
 .header-section {
-  background-color: rgb(36, 35, 35);
+  box-shadow: 4px 10px 136px -8px rgba(33, 191, 201, 0.75);
+  -webkit-box-shadow: 4px 10px 136px -8px rgba(33, 191, 201, 0.75);
+  -moz-box-shadow: 4px 10px 136px -8px rgba(33, 191, 201, 0.75);
 }
-
+.navbar {
+  background-color: rgba(179, 223, 226, 0.75);
+}
 .nav-links {
   display: flex;
 }
@@ -23,12 +26,11 @@ h3 {
   list-style-type: none;
   padding: 1rem;
   font-size: 1rem;
-  font-size: 20px;
-  color: white;
+  text-shadow: -5px 24px 1px rgba(0, 0, 0, 0.13);
 }
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 .nav-links a:hover {
   border-bottom: 1px solid white;
@@ -72,8 +74,9 @@ span {
   padding: 2.5rem;
   list-style-type: none;
 }
+
 .social-links a {
-  color: #000;
+  color: rgb(61, 61, 148);
 }
 .social-links a:hover {
   color: blueviolet;
@@ -86,12 +89,13 @@ span {
 }
 .see-more a {
   text-decoration: none;
-  color: #000;
+  color: blue;
 }
 .see-more a:hover {
   font-size: 20px;
   color: blueviolet;
 }
+
 @media (max-width: 600px) {
   .about-container {
     display: flex;
@@ -111,17 +115,28 @@ span {
   }
 }
 /*about page*/
-.tech-skills {
+.about-section {
+  padding-top: 3rem;
+  border-bottom: 4px dotted rgba(179, 223, 226, 0.75);
+}
+.my-info {
   text-align: center;
-  line-height: 30px;
-  margin: 4rem;
+  font-size: rem;
 }
-.tech-skills ul li {
-  list-style-type: none;
-  font-size: 1.25rem;
+.contact {
+  padding: 2rem;
 }
-/* projects*/
+.tech-skills {
+  padding-top: 2rem;
+}
+.soft-skills {
+  padding-top: 2rem;
+}
 
+/* projects*/
+.projects-cointainer {
+  border-bottom: 4px dotted rgba(179, 223, 226, 0.75);
+}
 .project {
   display: flex;
   justify-content: space-evenly;
@@ -135,9 +150,6 @@ span {
   width: 80%;
 }
 
-.article {
-  background-color: rgb(248, 228, 245);
-}
 @media (max-width: 600px) {
   .project {
     display: flex;

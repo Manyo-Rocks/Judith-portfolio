@@ -7,27 +7,42 @@ function About(){
     <>
       <section className="about-section">
      <h3>About Me</h3>
+     <div className="my-info">
+      
+        <p>My name is Judith Manyo Ogar. I love to be called Manyorock. I'm a Frontend Developer currently based in Ibadan, Nigeria.</p>
+        <p>Because of my love for Innovation and Technology, I got into software development in 2020.<br/> I'm fascinated about the new age Technology and I cant wait to see how the world evolves with Tech & I'm glad I am part of it.<br/>I associate with various developers communities on Twitter and Linkedin</p>
+
+
+
         <div className="tech-skills">
-         <h4>Tech skills</h4>
-         <ul>
-           <li>React Js</li>
+        <h5>Technologies I work with</h5>
+        <p> As a Frontend Developer, my Tech skills are
+        <ul>
+          <li>React Js</li>
            <li>JavaScript</li>
            <li>HTML5</li>
            <li>CSS3</li>
            <li>GIT</li>
-           </ul>
+        </ul>
+        </p>
         </div>
-       <div className="about-container">
-        <div className="about-info1"> 
-          <p className="intro"><span className='name'>Hello, I'm Judith Manyo Ogar</span><br /><span>A skilled Frontend Developer</span> who understand and know to implement good user interface and create great user experience with clean codes.  <br/> I know the importance of web accessibility, and so I write codes that makes the web accessible to everyone regardless of physical condition and devices used.
-          <span>I believe team work makes the dream work!</span> & I'm your best bet to add to your team and help build your product. I'm a great communicator and problem solver
-          <br/> <span>I will turn your dream product to reality with codes!</span></p>
-         
+        <div className="soft-skills">
+          <h5>Soft skills</h5>
+          <ul>
+            <li>Fast Learner</li>
+            <li>Good collaborator</li>
+            <li>Team sportmanship</li>
+            <li>Result oriented</li>
+            <li>Good communication skills</li>
+          </ul>
         </div>
-        <div className="image">
-          <img src='images/image.jpeg' alt="Judith"></img>
-        </div>
-       </div>
+        <p>When I'm not writing codes, I could be reading a novel, music & Dancing, or surfing the internet.</p>
+     </div>
+        
+       
+        <div className="contact">
+        <h5> Do you want to contact me?</h5>
+       
        <ul className='social-links'>
         <li><FontAwesomeIcon 
           icon={faPhone} 
@@ -56,11 +71,9 @@ function About(){
            className="font-awesome"
            /></a>
            </li>
-        
-        
        </ul>
-
-       
+       </div>
+           
        </section>
     </>
   )
